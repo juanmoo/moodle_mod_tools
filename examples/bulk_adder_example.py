@@ -8,7 +8,7 @@ import json
 from moodle_mod_tools.bulk_adder import bulk_add_from_tar, bulk_add_from_json
 
 if __name__ == "__main__":
-    # Create a sample config JSON.
+# Create a sample config JSON.
     config_data = [
             {
                 "title": "New Section",
@@ -17,7 +17,7 @@ if __name__ == "__main__":
                 ]
             }
         ]
-    with open("config.json", "w") as f:
+    with open("config.json",     "w") as f:
         json.dump(config_data, f)
 
     # Example tar usage.
